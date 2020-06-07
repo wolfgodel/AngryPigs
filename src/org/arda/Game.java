@@ -1,6 +1,6 @@
 package org.arda;
 import stddraw.StdDraw;
-
+  
 //javadoc
 
 import java.awt.Color;
