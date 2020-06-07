@@ -1,14 +1,23 @@
 package org.arda;
 import stddraw.StdDraw;
 
+//javadoc
+
 import java.awt.Color;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author wolfgodel (ARDA İÇEN)
+ * @version 1.0
+ *
+ */
+
 public class Game {
 	public static void main(String[] args) {
-
+;
 		// canvas parameters
 		int widthRectangle = 1000;
 		int heightRectangle = 500;

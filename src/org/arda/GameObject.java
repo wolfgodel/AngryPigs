@@ -7,7 +7,13 @@ public abstract class GameObject implements IGameObject{
 	protected Color color;
 	protected boolean target;
 	protected String image;
-	
+	/**
+	 * 
+	 * @param x   		coordinate in x axis 
+	 * @param y 		coordinate in y axis
+	 * @param color		object color, 
+	 * @param target	is target or decor?
+	 */
 	public GameObject(double x, double y, Color color, boolean target) {
 		super();
 		this.x = x;
@@ -68,7 +74,11 @@ public abstract class GameObject implements IGameObject{
 		this.color = color;
 	}
 
-		
+	/**
+	 * 
+	 * @return true is the object is a target.
+	 */
+	
 	@Override
 	public boolean isTarget() {
 		return target;

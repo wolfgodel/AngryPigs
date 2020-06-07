@@ -9,6 +9,14 @@ public class RectObject extends GameObject{
 	protected double width,heigth;
 	protected double halfWidth, halfHeigth;
 	
+	/**
+	 * 
+	 * @param x   		coordinate in x axis 
+	 * @param y 		coordinate in y axis
+	 * @param color		object color, 
+	 * @param target	is target or decor?
+	 */
+	
 	public RectObject(double x, double y, Color color, double width, double heigth) {
 		super(x, y, color);
 		this.width = width;
